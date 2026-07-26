@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+coverage/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+
+# Local databases and project data
+*.db
+*.db-shm
+*.db-wal
+uploads/
+private-projects/
+
+# Logs and temporary files
+*.log
+.tmp/
+tmp/
+.cache/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
