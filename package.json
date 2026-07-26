@@ -1,0 +1,17 @@
+{
+  "name": "signspec-rules",
+  "version": "0.1.0",
+  "description": "Transparent signage survey, estimating, and specification calculations for SignSpec Studio.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc -p tsconfig.json --noEmit",
+    "example": "tsx examples/storefront.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
